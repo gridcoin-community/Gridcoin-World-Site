@@ -1,0 +1,25 @@
+<nav class="navbar navbar-expand-lg fixed-top navbar-light">
+    <div class="container">
+        <a class="navbar-brand" href="/" rel="tooltip" data-toggle="tooltip" title="Gridcoin - Securely rewarding BOINC computation on top of POS!" data-placement="bottom">
+            <img src="/assets/img/ic-logo-desktop.svg" alt="Gridcoin Logo">
+            <img src="/assets/img/ic-logo-mobile.svg" alt="Gridcoin Logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse row" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                {% for link in site.data.navbar.links %}
+                    <li class="nav-item{% if link.url == page.url %} active{% endif %}">
+                        <a class="nav-link" href="{{ link.url }}">{{ link.title }}</a>
+                    </li>
+                {% endfor %}
+
+                <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show" >
+                    <a href="/#section_download"class="nav-link btn btn-primary">Downloads</a>
+                </li>
+            </ul>
+        </div><!-- .navbar-collapse -->
+    </div><!-- .container -->
+</nav><!-- .navbar -->

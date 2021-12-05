@@ -1,0 +1,44 @@
+# Jekyll Configuration
+
+#
+# Site settings
+#
+
+title: Gridcoin
+description: > # this ">" means to ignore newlines until "baseurl:"
+  Gridcoin is a cryptocurrency which rewards volunteer distributed computation
+  performed on the BOINC platform on top of Proof-of-Stake.
+baseurl: "" # the subpath of your site, e.g. /blog
+license: The MIT License
+license_url: https://opensource.org/licenses/MIT
+
+#
+# Build settings
+#
+repository: gridcoin-community/Gridcoin-Site
+exclude:
+  - .travis.yml
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - Old Data
+  - README.md
+  - CNAME
+
+destination: build
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-redirect-from #run after sitemap to not include redirects in sitemap.xml
+  
+#
+# Front Matter Defaults
+#
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: layout
+

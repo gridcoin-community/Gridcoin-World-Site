@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    {% include _head.htm %}
+    <body>
+        {% include _header.htm %}
+        <main>
+          <section class="grc-bgcolor">
+            <div class="min-h-80 docs-container container">
+                <div class="row">
+                    <div class="col-xl-3">
+                        <div class="docs-menu">
+                            <summary>Other Wiki Pages</summary>
+                            <nav>
+                              <ul class="navbar-nav">
+                                  {% for wikipage in site.pages %}
+                                    {% if wikipage.layout == 'wiki'%}
+                                      {% if page.url == wikipage.url %}
+                                        {% assign current = 'active' %}
+                                        {% assign title = wikipage.title %}
+                                      {% else %}
+                                        {% assign current = '' %}
+                                      {% endif %}
+                                      <li class="nav-item">
+                                        <a class="nav-link {{ current }}" href="{{ wikipage.url }}">{{ wikipage.title }}</a>
+                                      </li>
+                                    {% endif %}
+                                  {% endfor %}
+                              </ul>
+                            </nav>
+                          </div>
+                    </div>
+                    <div class="col-xl-9">
+                      <h1 class="echo-header">
+                        <span class="echo" aria-hidden="true">{{ title }}</span>
+                        {{ title }}
+                      </h1>
+                      {{ content  }}
+                    </div>
+                </div>
+            </div>
+          </section>
+        </main>
+        {% include _footer.htm %}
+
+        <!--   Core JS Files   -->
+        <script src="/assets/js/core/jquery-3.6.0.min.js" type="text/javascript"></script>
+        <script src="/assets/js/core/bootstrap-4.6.1.bundle.min.js" type="text/javascript"></script>
+        <script src="/assets/js/details-element-polyfill.js" type="text/javascript"></script>
+        <script src="/assets/js/gridcoin.js" type="text/javascript"></script>
+    </body>
+</html>

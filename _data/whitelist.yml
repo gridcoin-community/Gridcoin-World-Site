@@ -1,0 +1,293 @@
+---
+projects:
+- name: Amicable Numbers
+  link: https://sech.me/boinc/Amicable/
+  img: "ic-project-amicable-numbers.png"
+  topic: "Mathematics, Computing, Games"
+  goal: Amicable Numbers is an independent research project that uses Internet-connected
+    computers to find new amicable pairs. Currently searching the 10^20 range.
+  sponsor: Private
+  supports_windows: "y"
+  supports_mac: "y"
+  supports_linux: "y"
+  supports_arm: "y"
+  supports_nvidia_gpu: "y"
+  supports_amd_gpu: "y"
+  gdpr: "no"
+  team: https://sech.me/boinc/Amicable/team_display.php?teamid=1806
+  stats: https://gridcoinstats.eu/project/Amicable_Numbers
+
+- name: Asteroids@home
+  link: https://asteroidsathome.net/boinc/
+  img: "ic-project-asteroids-home.png"
+  topic: "Physical Science"
+  goal: Asteroid research - it uses photometric measurements of asteroids observed
+    by professional big all-sky surveys as well as 'backyard' astronomers. The data
+    is processed using the lightcurve inversion method and a 3D shape model of an
+    asteroid together with the rotation period and the direction of the spin axis
+    are derived.
+  sponsor: Charles University in Prague
+  supports_windows: "y"
+  supports_mac: "y"
+  supports_linux: "y"
+  supports_bsd: "y"
+  supports_android: "y"
+  supports_arm: "y"
+  supports_nvidia_gpu: "y"
+  gdpr: "no"
+  team: https://asteroidsathome.net/boinc/team_display.php?teamid=2218
+  stats: https://gridcoinstats.eu/project/asteroids@home
+
+- name: Collatz Conjecture
+  link: https://boinc.thesonntags.com/collatz/
+  img: "ic-project-collatz-conjecture.png"
+  topic: "Mathematics, Computing, Games"
+  goal: Attempting to disprove the Collatz Conjecture.
+  sponsor: Private
+  supports_windows: "y"
+  supports_mac: "y"
+  supports_linux: "y"
+  supports_nvidia_gpu: "y"
+  supports_amd_gpu: "y"
+  supports_intel_gpu: "y"
+  gdpr: "no"
+  team: https://boinc.thesonntags.com/collatz/team_display.php?teamid=3029
+  stats: https://gridcoinstats.eu/project/collatz_conjecture
+
+- name: Cosmology@Home
+  link: https://www.cosmologyathome.org/
+  img: "ic-project-cosmology-home.png"
+  topic: "Physical Science"
+  goal: Darkmatter/Universe Model Research
+  sponsor: Department of Astronomy at the University of Illinois at Urbana-Champaign
+  supports_windows: "y"
+  supports_mac: "y"
+  supports_linux: "y"
+  supports_virtualbox: "y"
+  gdpr: "no"
+  team: https://www.cosmologyathome.org/team_display.php?teamid=3637
+  stats: https://gridcoinstats.eu/project/cosmology@home
+
+- name: Einstein@home
+  link: https://einsteinathome.org
+  img: "ic-project-einstein-home.png"
+  topic: "Physical Science"
+  goal: Search for spinning neutron (pulsars) stars using data from the LIGO gravitational-wave
+    detectors, the Arecibo radio telescope, and the Fermi gamma-ray satellite
+  sponsor: Univ. of Wisconsin - Milwaukee, Max Planck Institute
+  supports_windows: "y"
+  supports_mac: "y"
+  supports_linux: "y"
+  supports_arm: "y"
+  supports_android: "y"
+  supports_nvidia_gpu: "y"
+  supports_amd_gpu: "y"
+  supports_intel_gpu: "y"
+  gdpr: "yes"
+  gdpr-enable-steps: https://einsteinathome.org/content/gdpr-new-website-features-and-statistics-export-option
+  team: https://einsteinathome.org/community/teams/185236
+  stats: https://gridcoinstats.eu/project/einstein@home
+
+- name: GPUgrid
+  link: https://www.gpugrid.net/
+  img: "ic-project-gpugrid.png"
+  topic: "Biology, Medicine"
+  goal: Full-atom molecular simulations of proteins
+  sponsor: Private Sponsors, accept donations in Bitcoin
+  supports_windows: "y"
+  supports_linux: "y"
+  supports_nvidia_gpu: "y"
+  gdpr: "no"
+  team: https://www.gpugrid.net/team_display.php?teamid=3493
+  stats: https://gridcoinstats.eu/project/gpugrid
+
+- name: Milkyway@home
+  link: http://milkyway.cs.rpi.edu/milkyway/
+  img: "ic-project-milkyway-home.png"
+  topic: "Physical Science"
+  goal: Creation of a 3D map of the Milky Way galaxy using data gathered by the Sloan
+    Digital Sky Survey. This project enables research in both astroinformatics and
+    computer science.
+  sponsor: Rensselaer Polytechnic Institute
+  supports_windows: "y"
+  supports_mac: "y"
+  supports_linux: "y"
+  supports_nvidia_gpu: "y"
+  supports_amd_gpu: "y"
+  gdpr: "no"
+  team: https://milkyway.cs.rpi.edu/milkyway/team_display.php?teamid=6566
+  stats: https://gridcoinstats.eu/project/milkyway@home
+
+- name: Minecraft@Home
+  link: https://minecraftathome.com/
+  img: "ic-project-mc-home.svg"
+  topic: "Mathematics, Computing, Games"
+  goal: Enables the study of the fundamental laws of Minecraft to answer 
+        unanswered questions regarding the features and true limits of the game.
+  sponsor: Private
+  supports_windows: "y"
+  supports_linux: "y"
+  supports_arm: "y"
+  supports_nvidia_gpu: "y"
+  supports_amd_gpu: "y"
+  supports_intel_gpu: "y"
+  gdpr: "no"
+  team: https://minecraftathome.com/minecrafthome/team_display.php?teamid=1840
+  stats: https://gridcoinstats.eu/project/minecraft@home
+
+- name: NFS@Home
+  link: https://escatter11.fullerton.edu/nfs/
+  img: "ic-project-nfs.png"
+  topic: "Mathematics, Computing, Games"
+  goal: Lattice sieving step in Number Field Sieve factorization of large integers.
+    Many public key algorithms, including the RSA algorithm, rely on the fact that
+    the publicly available modulus cannot be factored. If it is factored, the private
+    key can be easily calculated.
+  sponsor: California State University Fullerton
+  supports_windows: "y"
+  supports_mac: "y"
+  supports_linux: "y"
+  supports_bsd: "y"
+  gdpr: "no"
+  team: https://escatter11.fullerton.edu/nfs/team_display.php?teamid=2353
+  stats: https://gridcoinstats.eu/project/nfs@home
+  
+- name: NumberFields@home
+  link: https://numberfields.asu.edu/NumberFields/
+  img: "ic-project-numberfields-home.png"
+  topic: "Mathematics, Computing, Games"
+  goal: Research in number theory. Number theorists can mine the data for interesting
+    patterns to help them formulate conjectures about number fields.
+  sponsor: Arizona State University, school of Mathematics
+  supports_windows: "y"
+  supports_mac: "y"
+  supports_linux: "y"
+  supports_nvidia_gpu: "y"
+  supports_amd_gpu: "y"
+  gdpr: "yes"
+  gdpr-enable-steps: "https://numberfields.asu.edu/NumberFields/forum_thread.php?id=355#2134"
+  team: https://numberfields.asu.edu/NumberFields/team_display.php?teamid=2069
+  stats: https://gridcoinstats.eu/project/numberfields@home
+
+- name: ODLK1
+  link: https://boinc.multi-pool.info/latinsquares/
+  img: "ic-project-odlk1.png"
+  topic: "Mathematics, Computing, Games"
+  goal: OLDK is building a database of canonical forms of diagonal Latin squares of
+    the 10th order
+  sponsor: "Independent"
+  supports_windows: "y"
+  supports_linux: "y"
+  supports_bsd: "y"
+  gdpr: "no"
+  team: https://boinc.multi-pool.info/latinsquares/team_display.php?teamid=48
+  stats: https://gridcoinstats.eu/project/odlk1
+
+- name: Rosetta@Home
+  link: https://boinc.bakerlab.org/rosetta/
+  img: "ic-project-rosetta-home.png"
+  topic: "Biology, Medicine"
+  goal: Protein structure prediction that may ultimately lead to finding cures for
+    some major human diseases.
+  sponsor: University of Washington
+  supports_windows: "y"
+  supports_mac: "y"
+  supports_linux: "y"
+  supports_arm: "y"
+  supports_virtualbox: "y"
+  supports_android: "y"
+  gdpr: "no"
+  team: https://boinc.bakerlab.org/rosetta/team_display.php?teamid=12575
+  stats: https://gridcoinstats.eu/project/rosetta@home
+
+- name: SRBase
+  link: http://srbase.my-firewall.org/sr5/
+  img: "ic-project-srbase.png"
+  topic: "Mathematics, Computing, Games"
+  goal: Attempting to solve Sierpinski / Riesel Bases up to 1030.
+  sponsor: Collaboration with the Mersenne CRUS project.
+  supports_windows: "y"
+  supports_mac: "y"
+  supports_linux: "y"
+  supports_nvidia_gpu: "y"
+  supports_amd_gpu: "y"
+  gdpr: "no"
+  team: http://srbase.my-firewall.org/sr5/team_display.php?teamid=99
+  stats: https://gridcoinstats.eu/project/srbase
+
+- name: SiDock@Home
+  link: https://www.sidock.si/sidock/
+  img: "ic-project-sidock-home.png"
+  topic: "Biology, Medicine"
+  goal: Works on drug discovery with COVID-19 as its primary focus
+  sponsor: COVID.SI project and the Karelian Research Center of the Russian Academy of Sciences.
+  supports_windows: "y"
+  supports_mac: "y"
+  supports_linux: "y"
+  supports_arm: "y"
+  gdpr: "no"
+  team: https://www.sidock.si/sidock/team_display.php?teamid=54
+  stats: https://www.gridcoinstats.eu/project/sidock@home
+
+- name: TN-Grid
+  link: https://gene.disi.unitn.it/test/
+  img: "ic-project-tn-grid.png"
+  topic: "Mathematics, Computing, Games"
+  goal: "Expanding each single gene of an organism."
+  sponsor: National Research Council of Italy (CNR)
+  supports_windows: "y"
+  supports_mac: "y"
+  supports_linux: "y"
+  supports_arm: "y"
+  gdpr: "no"
+  team: https://gene.disi.unitn.it/test/team_display.php?teamid=61
+  stats: https://www.gridcoinstats.eu/project/tn-grid
+  
+- name: Universe@home
+  link: https://universeathome.pl/universe/
+  img: "ic-project-universe-home.png"
+  topic: "Physical Science"
+  goal: "Simulations that deal with the fundamental problems of the Universe."
+  sponsor: University of Warsaw
+  supports_windows: "y"
+  supports_linux: "y"
+  supports_arm: "y"
+  supports_android: "y"
+  gdpr: "yes"
+  gdpr-enable-steps: https://www.reddit.com/r/gridcoin/comments/ega7k5/universehome_requires_consent_for_stats_export/
+  team: https://universeathome.pl/universe/team_display.php?teamid=1822
+  stats: https://gridcoinstats.eu/project/universe@home
+
+- name: World Community Grid
+  link: https://www.worldcommunitygrid.org/
+  img: "ic-project-world-community-grid.png"
+  topic: "Multiple applications"
+  goal: FightAIDS@home, Smash Childhood Cancer, fight Tuberculosis, research better
+    materials for solar panels.
+  sponsor: IBM Corporate Citizenship
+  supports_windows: "y"
+  supports_mac: "y"
+  supports_linux: "y"
+  supports_arm: "y"
+  supports_android: "y"
+  gdpr: "yes"
+  gdpr-enable-steps: https://www.worldcommunitygrid.org/ms/viewDataSharing.action
+  team: https://secure.worldcommunitygrid.org/team/viewTeamInfo.do?teamId=BBNGDQS832
+  stats: https://gridcoinstats.eu/project/World_Community_Grid
+  
+- name: yoyo@home
+  link: https://www.rechenkraft.net/yoyo/
+  img: "ic-project-yoyo-home.png"
+  topic: "Multiple applications"
+  goal: Brings existing distributed computing projects to the BOINC world using the
+    BOINC Wrapper technology
+  sponsor: Supported by Rechenkraft.net e.V. , accept private Donations, also accept
+    Bitcoin
+  supports_windows: "y"
+  supports_mac: "y"
+  supports_linux: "y"
+  supports_arm: "y"
+  supports_android: "y"
+  gdpr: "no"
+  team: https://www.rechenkraft.net/yoyo/team_display.php?teamid=1475
+  stats: https://gridcoinstats.eu/project/yoyo@home
