@@ -1044,3 +1044,20 @@ footer {
   background-color: #e9edf1;
   padding: 1rem;
 }
+
+.cookies-eu-banner {
+    width: 100%;
+    background-color: rgba(248, 250, 253, 0.925);
+    box-shadow: 0 .5rem 1rem rgba(46, 91, 255, 0.1);
+    color: var(--text-dark);
+    padding: 6px;
+    font-size: 15px;
+    text-align: center;
+    position: fixed;
+    bottom: 0px;
+    z-index: 1040;
+}
+
+.cookies-eu-banner .btn {
+    margin-bottom: 0.2em;
+} 

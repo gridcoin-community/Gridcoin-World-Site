@@ -1,0 +1,22 @@
+<div id="cookies-eu-banner" class="cookies-eu-banner" style="display: none;">
+    Do you accept the use of cookies by Google Analytics for statistical purposes?
+    <br>
+    <button id="cookies-eu-accept" class="btn btn-outline-primary">Yes</button>
+    <button id="cookies-eu-reject" class="btn btn-outline-primary">No</button>
+</div>
+
+<script src="/assets/js/cookie-banner.js"></script>
+<!--Google Analytics-->
+<script>
+    new CookiesEuBanner(function () {
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.googletagmanager.com/gtag/js?id=G-HL06969BHT','ga');
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-HL06969BHT');
+    }, true);
+</script>
+<!--/Google Analytics-->
