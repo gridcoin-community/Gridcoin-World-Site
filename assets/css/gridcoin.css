@@ -1008,39 +1008,39 @@ footer {
  * Wiki
  */
  .docs-container h2 {
-  font-size: 2rem;
-  font-weight: normal;
+    font-size: 2rem;
+    font-weight: normal;
 }
 
 .docs-container h3 {
-  font-size: 1.5rem;
-  font-weight: 600;
+    font-size: 1.5rem;
+    font-weight: 600;
 }
 
 .docs-menu > summary {
-  list-style: none;
-  padding: 0.5rem 0;
-  font-size: 1.2rem;
+    list-style: none;
+    padding: 0.5rem 0;
+    font-size: 1.2rem;
 }
 
 .docs-menu .nav-link {
-  padding: 0.3rem 0;
+    padding: 0.3rem 0;
 }
 
 .docs-menu .nav-link.active {
-  color: var(--text-dark);
-  font-weight: 600;
+    color: var(--text-dark);
+    font-weight: 600;
 }
 
 @media (max-width: 991.98px) {
-  .docs-menu {
-    text-align: center;
-  }
+    .docs-menu {
+        text-align: center;
+    }
 }
 
 .docs-container pre {
-  border: 1px solid #bbcddb;
-  border-radius: 0.5rem; 
-  background-color: #e9edf1;
-  padding: 1rem;
+    border: 1px solid #bbcddb;
+    border-radius: 0.5rem; 
+    background-color: #e9edf1;
+    padding: 1rem;
 }
