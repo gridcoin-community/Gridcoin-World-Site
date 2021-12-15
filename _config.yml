@@ -42,3 +42,5 @@ defaults:
     values:
       layout: layout
 
+
+theme: jekyll-theme-cayman
