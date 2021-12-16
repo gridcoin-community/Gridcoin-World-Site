@@ -564,6 +564,10 @@ footer {
 
 /* Guides Page */
 
+#section_choose_mode .display-list {
+  border-bottom: none;
+}
+
 #section_guides_intro {
 	background-image: url("/assets/img/il-header-guides.svg");
 	background-size: contain;
