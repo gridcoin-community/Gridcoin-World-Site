@@ -1,28 +1,4 @@
-<section id="section_boinc_intro" class="container tight-width">
-  <h2 class="echo-header">
-      <span class="echo" aria-hidden="true">BOINC Introduction</span>
-      BOINC Introduction
-  </h2>
-
-  <img class="d-block mx-auto mb-5" src="/assets/img/boinc-logo.svg" alt="BOINC logo" style="width: 240px;">
-
-  <p>
-      BOINC&mdash;<a href="https://boinc.berkeley.edu/">The Berkeley Open
-      Infrastructure for Network Computing</a>, an open-source middleware
-      system, supports volunteer and grid computing. Originally developed to
-      support the SETI@home project, it became generalized as a platform for
-      other distributed applications in areas as diverse as mathematics,
-      linguistics, medicine, molecular biology, climatology, environmental
-      science, and astrophysics, among others. BOINC aims to enable researchers
-      to tap into the enormous processing resources of multiple personal
-      computers around the world.
-  </p>
-  <p>
-      Don't want BOINC rewards? Switch to the <a href="#">Staking-only Guide</a>.
-      You do not need to install or run BOINC in order to use GRC as a
-      cryptocurrency.
-  </p>
-</section><!-- #section_boinc_intro -->
+{% include _guides/_boinc_introduction.htm %}
 
 <section id="section_solo_steps" class="container">
   <h2 class="echo-header">
@@ -51,74 +27,65 @@
       </section><!-- .step -->
 
       <section class="step">
-          <header>
-              <img src="/assets/img/ic-guide-choose-project.svg" alt="">
-              <h3>
-                  <span class="echo" aria-hidden="true">02</span>
-                  <strong>Step 2.</strong> Choose Projects
-              </h3>
-          </header>
-          <div class="step-body">
-              <p>
-                  To earn Gridcoin, you need to crunch <a href="/whitelist.htm">
-                  whitelisted</a> BOINC projects on team Gridcoin.
-              </p>
-              <h4 class="h5">Project Selection Tips</h4>
-              <ul>
-                  <li>
-                      Choose projects with the least competition. Use
-                      <a href="https://gridcoinstats.eu/">GridcoinStats</a> to
-                      help identify such projects.
-                  </li>
-                  <li>
-                      Select projects most compatible with your computer hardware.
-                      Don't crunch GPU work with a CPU.
-                  </li>
-                  <li>
-                      Verify that your projects have enough work available. You
-                      don't want downtime while waiting for projects to generate
-                      new work.
-                  </li>
-                  <li>
-                      Have a backup project in case your primary project runs out
-                      of work or goes down.
-                  </li>
-              </ul>
-          </div><!-- .step-body -->
-      </section><!-- .step -->
+        <header>
+            <img src="/assets/img/ic-guide-install-boinc.svg" alt="">
+            <h3>
+                <span class="echo" aria-hidden="true">01</span>
+                <strong>Step 1.</strong> Sign up to a Gridcoin pool                
+            </h3>
+        </header>
+        <div class="step-body">
+            <p>
+                There is currently two pools: 
+                <ul>
+                  <li><a href="https://www.grcpool.com/" target="_blank">GRCPOOL</a></li>
+                  <li><a href="https://grc.arikado.ru/" target="_blank">Arikado Pool</a></li>
+                </ul>
+                <b>GRCPOOL</b> has created several video tutorials for new users:
+                <ul>
+                  <li><a href="https://www.youtube.com/watch?v=79rTDNjdOf8" rel="nofollow" target="_blank">Setup BOINC</a></li>
+                  <li><a href="https://www.youtube.com/watch?v=dB-Hmg94E6s" rel="nofollow" target="_blank">Androin Setup</a></li>
+                  <li><a href="https://www.youtube.com/watch?v=FjVjqZnhMZA" rel="nofollow" target="_blank">Receive Gridcoin</a></li>
+                </ul>
+            </p>
+        </div>
+    </section><!-- .step -->
 
-      <section class="step">
-          <header>
-              <img src="/assets/img/ic-guide-setup-project.svg" alt="">
-              <h3>
-                  <span class="echo" aria-hidden="true">03</span>
-                  <strong>Step 3.</strong> Setup Projects
-              </h3>
-          </header>
-          <div class="step-body">
-              <h4 class="h5">No Account Manager Setup</h4>
-              <ol>
-                  <li>After starting BOINC, select the "add a project" button.</li>
-                  <li>After clicking "Next", choose a project.</li>
-                  <li>
-                      For some projects (such as World Community Grid), you have to
-                      register directly on the homepage of the project. Remember
-                      to use the same email address for each BOINC project.
-                  </li>
-                  <li>
-                      Confirm the registration. After tapping the "Finish" button,
-                      a browser should open. If not, go to the project home page
-                      (which can be found via a search engine). Find the "Your
-                      Account" button and press it.
-                  </li>
-                  <li>
-                      Within the web page, enter your username (country/post code
-                      can be blank) and then press "OK".
-                  </li>
-                  <li>Search for and join team "Gridcoin".</li>
-                  <li>Repeat these steps for all projects that you want to participate in.</li>
-              </ol>
-          </div><!-- .step-body -->
+    <section class="step">
+      <header>
+          <img src="/assets/img/ic-guide-choose-project.svg" alt="">
+          <h3>
+              <span class="echo" aria-hidden="true">02</span>
+              <strong>Step 2.</strong> Choose Projects
+          </h3>
+      </header>
+      <div class="step-body">
+          <p>
+              To earn Gridcoin, you need to crunch <a href="/whitelist.htm">
+              whitelisted</a> BOINC projects on team Gridcoin.
+          </p>
+          <h4 class="h5">Project Selection Tips</h4>
+          <ul>
+              <li>
+                  Choose projects with the least competition. Use
+                  <a href="https://gridcoinstats.eu/">GridcoinStats</a> to
+                  help identify such projects.
+              </li>
+              <li>
+                  Select projects most compatible with your computer hardware.
+                  Don't crunch GPU work with a CPU.
+              </li>
+              <li>
+                  Verify that your projects have enough work available. You
+                  don't want downtime while waiting for projects to generate
+                  new work.
+              </li>
+              <li>
+                  Have a backup project in case your primary project runs out
+                  of work or goes down.
+              </li>
+          </ul>
+        </div><!-- .step-body -->
       </section><!-- .step -->
 
       <section class="step">
