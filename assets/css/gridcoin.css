@@ -584,15 +584,13 @@ footer {
 
 #section_choose_mode li {
     width: 33%;
-    padding-bottom: 3%;
-    border-bottom: 3px solid #eceff3;
 }
 
-#section_choose_mode li.active {
+#section_choose_mode li a.active {
     border-bottom-color: var(--primary);
 }
 
-#section_choose_mode li:not(.active):hover {
+#section_choose_mode li a:not(.active):hover {
     border-bottom-color: var(--primary-light);
 }
 
@@ -604,6 +602,8 @@ footer {
     text-align: center;
     font-weight: bold;
     text-decoration: none;
+    padding-bottom: 10%;
+    border-bottom: 3px solid #eceff3;
 }
 
 #section_choose_mode img {
@@ -611,7 +611,7 @@ footer {
     margin: 0 auto;
 }
 
-#section_choose_mode li.active a,
+#section_choose_mode a.active,
 #section_choose_mode li:hover a {
     color: var(--text-dark);
 }
