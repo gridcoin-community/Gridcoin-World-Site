@@ -519,6 +519,10 @@ footer {
     height: 100px; /* IE */
 }
 
+#section_how_to_join h5 {
+  color: var(--primary);
+}
+
 @media (max-width: 767.98px) {
     #section_join_network .flair-square-dots::after {
         transform: scale(0.5);
