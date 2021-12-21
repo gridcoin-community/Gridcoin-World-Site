@@ -12,7 +12,7 @@ For installation of Jekyll please follow https://jekyllrb.com/docs/installation/
 
 1. sudo apt-get install git
 
-2. git clone https://github.com/gridcoin-community/Gridcoin-Site-World.git
+2. git clone https://github.com/gridcoin-community/Gridcoin-World-Site
 
 3. cd Gridcoin-Site-World
 
@@ -25,7 +25,7 @@ For installation of Jekyll please follow https://jekyllrb.com/docs/installation/
 
   --OR--
 
-2. Go to the location you store Git Repos and Rightclick -> Gitbash here git clone https://github.com/gridcoin-community/Gridcoin-Site-World.git
+2. Go to the location you store Git Repos and Rightclick -> Gitbash here git clone https://github.com/gridcoin-community/Gridcoin-World-Site.git
 
 3. Go to Gridcoin-Site-World folder (or whatever you specified when pulling the repo) Shift+RightClick -> Open Cmd Prompt Here or Open Powershell window here(Win 10)
 
