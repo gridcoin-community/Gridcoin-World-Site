@@ -12,7 +12,7 @@ For installation of Jekyll please follow https://jekyllrb.com/docs/installation/
 
 1. sudo apt-get install git
 
-2. git clone https://github.com/gridcoin-community/Gridcoin-World-Site
+2. git clone https://github.com/gridcoin-community/Gridcoin-World-Site.git
 
 3. cd Gridcoin-Site-World
 
