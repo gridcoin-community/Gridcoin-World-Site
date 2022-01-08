@@ -37,6 +37,13 @@ ul, ol {
     padding-left: 1.5em;
 }
 
+pre {
+  border: 1px solid #bbcddb;
+  border-radius: 0.5rem; 
+  background-color: #e9edf1;
+  padding: 1rem;
+}
+
 @media (prefers-reduced-motion: reduce) {
     html {
         scroll-behavior: auto;
@@ -1040,11 +1047,4 @@ footer {
     .docs-menu {
         text-align: center;
     }
-}
-
-.docs-container pre {
-    border: 1px solid #bbcddb;
-    border-radius: 0.5rem; 
-    background-color: #e9edf1;
-    padding: 1rem;
 }

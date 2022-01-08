@@ -217,6 +217,19 @@
                       If you found differing CPIDs, use this
                       <a href="https://steemit.com/gridcoin/@dutch/the-definitive-guide-to-fixing-a-split-cpid-gridcoin-s-and-boinc-s-1-problem">guide</a>.
                   </li>
+                  <li>
+                      If you installed the BOINC client anywhere other than the
+                      default installation location, you'll need to specify
+                      where you installed BOINC in the gridcoinresearch.conf file.
+                      <br />
+                      <br />
+                      <b>Windows</b>: (Note the double backslashes are necessary. Change location according to your non-default install location)
+                      <pre class="highlight">boincdatadir=D:\\ProgramData\\BOINC\\
+boincappdir=C:\\Program Files\\BOINC\\</pre>
+                      <br />
+                      <b>Linux:</b>
+                      <pre class="highlight">boincdatadir=/var/lib/boinc-client/</pre>
+                  </li>
               </ol>
 
               <h4 class="h5">Configure the Wallet</h4>
@@ -224,7 +237,7 @@
                   <li>
                       In the wallet, go to the "overview" page and check the
                       message in the lower-left. Make sure it doesn't say
-                      "INVESTOR".
+                      "Staking Only - Investor Mode".
 
                       <ul>
                           <li>
@@ -235,7 +248,9 @@
                           </li>
                       </ul>
                   </li>
-                  <li>Send a beacon.</li>
+                  <li>
+                    <a href="https://gridcoin.us/guides/earn-grc.htm" target="_blank">Send a beacon</a>.
+                  </li>
               </ol>
 
               <h4 class="h5">Running the Wallet to Stake</h4>
