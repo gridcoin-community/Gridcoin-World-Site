@@ -24,10 +24,19 @@ function getLatestRelease() {
     });
 }
 
+function switchTabs() {
+  var hash = window.location.hash;
+  if(hash != '' || hash != undefined) {
+    $('.nav-tabs a[href="' + hash + '"]').tab('show');
+  }
+}
+
 $(document).ready(function () {
     onScroll();
     $(document).on("scroll", onScroll);
     $('[data-toggle="tooltip"]').tooltip() //Enabled bootstrap tooltips.
 
     getLatestRelease();
+
+    switchTabs();
 });

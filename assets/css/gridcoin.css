@@ -37,6 +37,13 @@ ul, ol {
     padding-left: 1.5em;
 }
 
+pre {
+  border: 1px solid #bbcddb;
+  border-radius: 0.5rem; 
+  background-color: #e9edf1;
+  padding: 1rem;
+}
+
 @media (prefers-reduced-motion: reduce) {
     html {
         scroll-behavior: auto;
@@ -568,6 +575,10 @@ footer {
 
 /* Guides Page */
 
+#section_choose_mode .display-list {
+  border-bottom: none;
+}
+
 #section_guides_intro {
 	background-image: url("/assets/img/il-header-guides.svg");
 	background-size: contain;
@@ -584,15 +595,13 @@ footer {
 
 #section_choose_mode li {
     width: 33%;
-    padding-bottom: 3%;
-    border-bottom: 3px solid #eceff3;
 }
 
-#section_choose_mode li.active {
+#section_choose_mode li a.active {
     border-bottom-color: var(--primary);
 }
 
-#section_choose_mode li:not(.active):hover {
+#section_choose_mode li a:not(.active):hover {
     border-bottom-color: var(--primary-light);
 }
 
@@ -604,6 +613,8 @@ footer {
     text-align: center;
     font-weight: bold;
     text-decoration: none;
+    padding-bottom: 10%;
+    border-bottom: 3px solid #eceff3;
 }
 
 #section_choose_mode img {
@@ -611,7 +622,7 @@ footer {
     margin: 0 auto;
 }
 
-#section_choose_mode li.active a,
+#section_choose_mode a.active,
 #section_choose_mode li:hover a {
     color: var(--text-dark);
 }
@@ -1012,41 +1023,34 @@ footer {
  * Wiki
  */
  .docs-container h2 {
-  font-size: 2rem;
-  font-weight: normal;
+    font-size: 2rem;
+    font-weight: normal;
 }
 
 .docs-container h3 {
-  font-size: 1.5rem;
-  font-weight: 600;
+    font-size: 1.5rem;
+    font-weight: 600;
 }
 
 .docs-menu > summary {
-  list-style: none;
-  padding: 0.5rem 0;
-  font-size: 1.2rem;
+    list-style: none;
+    padding: 0.5rem 0;
+    font-size: 1.2rem;
 }
 
 .docs-menu .nav-link {
-  padding: 0.3rem 0;
+    padding: 0.3rem 0;
 }
 
 .docs-menu .nav-link.active {
-  color: var(--text-dark);
-  font-weight: 600;
+    color: var(--text-dark);
+    font-weight: 600;
 }
 
 @media (max-width: 991.98px) {
-  .docs-menu {
-    text-align: center;
-  }
-}
-
-.docs-container pre {
-  border: 1px solid #bbcddb;
-  border-radius: 0.5rem; 
-  background-color: #e9edf1;
-  padding: 1rem;
+    .docs-menu {
+        text-align: center;
+    }
 }
 
 .cookies-eu-banner {
