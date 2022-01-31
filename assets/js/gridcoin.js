@@ -27,8 +27,24 @@ function getLatestRelease() {
 function switchTabs() {
   var hash = window.location.hash;
   if(hash != '' || hash != undefined) {
-    $('.nav-tabs a[href="' + hash + '"]').tab('show');
+    var tab = $('.nav-tabs a[href="' + hash + '"]');
+    tab.tab('show');
+    scrollToTheTab(tab);
   }
+
+  $('.nav-tabs a').click(function () {
+    var tab = $(this)
+    tab.tab('show');
+    window.location.hash = this.hash;
+    scrollToTheTab(tab);
+  });
+}
+
+function scrollToTheTab(target) {
+  var targetPosition = target.offset().top - 130;
+  $('html, body').animate({
+    'scrollTop': targetPosition
+  }, 100, 'swing');
 }
 
 $(document).ready(function () {
