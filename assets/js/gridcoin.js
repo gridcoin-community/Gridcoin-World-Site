@@ -24,11 +24,41 @@ function getLatestRelease() {
     });
 }
 
-function switchTabs() {
+/**
+ * Add listeners to the tabs
+ * Switch tab contnent upon click
+ * Scroll to the tab posibion
+ */
+function initTabs() {
+  $('.nav-tabs a').click(function () {
+    if (window.location.hash !== this.hash) {
+      window.location.hash = this.hash;
+    }
+  });
+}
+
+/**
+ * Check current hash
+ * Act: try to find the tab
+ * Change tab content, scroll to the tab
+ */
+function handleTabSwitch() {
   var hash = window.location.hash;
-  if(hash != '' || hash != undefined) {
-    $('.nav-tabs a[href="' + hash + '"]').tab('show');
+  if (hash) {
+    var tab = $('.nav-tabs a[href="' + hash + '"]');
+    if (tab.length) {
+      tab.tab('show');
+      // Timeout is crusual to neglate tab switch effect time
+      setTimeout(() => scrollToTheTab(tab), 100);
+    }
   }
+}
+
+function scrollToTheTab(target) {
+  var targetPosition = target.offset().top - 130;
+  $('html, body').animate({
+    'scrollTop': targetPosition
+  }, 50, 'swing');
 }
 
 $(document).ready(function () {
@@ -38,5 +68,7 @@ $(document).ready(function () {
 
     getLatestRelease();
 
-    switchTabs();
+    initTabs();
+    handleTabSwitch();
+    $(window).bind('hashchange', handleTabSwitch);
 });
