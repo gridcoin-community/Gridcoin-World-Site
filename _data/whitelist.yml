@@ -10,7 +10,7 @@ projects:
   supports_windows: "y"
   supports_mac: "y"
   supports_linux: "y"
-  supports_arm: "y"
+  supports_linuxarm: "y"
   supports_nvidia_gpu: "y"
   supports_amd_gpu: "y"
   gdpr: "no"
@@ -32,7 +32,7 @@ projects:
   supports_linux: "y"
   supports_bsd: "y"
   supports_android: "y"
-  supports_arm: "y"
+  supports_linuxarm: "y"
   supports_nvidia_gpu: "y"
   gdpr: "no"
   team: https://asteroidsathome.net/boinc/team_display.php?teamid=2218
@@ -48,7 +48,7 @@ projects:
   supports_windows: "y"
   supports_mac: "y"
   supports_linux: "y"
-  supports_arm: "y"
+  supports_linuxarm: "y"
   supports_android: "y"
   supports_nvidia_gpu: "y"
   supports_amd_gpu: "y"
@@ -144,7 +144,7 @@ projects:
   supports_windows: "y"
   supports_mac: "y"
   supports_linux: "y"
-  supports_arm: "y"
+  supports_linuxarm: "y"
   supports_virtualbox: "y"
   supports_android: "y"
   gdpr: "no"
@@ -159,7 +159,7 @@ projects:
   sponsor: COVID.SI project and the Karelian Research Center of the Russian Academy of Sciences.
   supports_windows: "y"
   supports_linux: "y"
-  supports_arm: "y"
+  supports_linuxarm: "y"
   gdpr: "no"
   team: https://www.sidock.si/sidock/team_display.php?teamid=54
   stats: https://www.gridcoinstats.eu/project/sidock@home
@@ -189,7 +189,7 @@ projects:
   supports_windows: "y"
   supports_mac: "y"
   supports_linux: "y"
-  supports_arm: "y"
+  supports_linuxarm: "y"
   gdpr: "no"
   team: https://gene.disi.unitn.it/test/team_display.php?teamid=61
   stats: https://www.gridcoinstats.eu/project/tn-grid
@@ -202,7 +202,7 @@ projects:
   sponsor: University of Warsaw
   supports_windows: "y"
   supports_linux: "y"
-  supports_arm: "y"
+  supports_linuxarm: "y"
   supports_android: "y"
   gdpr: "yes"
   gdpr-enable-steps: https://www.reddit.com/r/gridcoin/comments/ega7k5/universehome_requires_consent_for_stats_export/
@@ -219,7 +219,7 @@ projects:
   supports_windows: "y"
   supports_mac: "y"
   supports_linux: "y"
-  supports_arm: "y"
+  supports_linuxarm: "y"
   supports_android: "y"
   supports_nvidia_gpu: "y"
   supports_amd_gpu: "y"
@@ -240,7 +240,7 @@ projects:
   supports_windows: "y"
   supports_mac: "y"
   supports_linux: "y"
-  supports_arm: "y"
+  supports_linuxarm: "y"
   supports_android: "y"
   gdpr: "no"
   team: https://www.rechenkraft.net/yoyo/team_display.php?teamid=1475
