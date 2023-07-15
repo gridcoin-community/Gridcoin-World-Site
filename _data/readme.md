@@ -17,7 +17,7 @@ supports_windows: "y"
 supports_mac: "y"
 supports_linux: "y"
 supports_bsd: "y"
-supports_arm: "y"
+supports_linuxarm: "y"
 supports_virtualbox: "y"
 supports_android: "y"
 supports_nvidia_gpu: "y"
@@ -41,7 +41,7 @@ sponsor: Who runs/funds the operation of the project
 team: A hyperlink to team 'Gridcoin' within each BOINC project.
 stats: A hyperlink to the project's gridcoinstats.eu page.  
 supports_*: self explanatory, only requires being present to trigger.
-supports_arm: linux on arm
+supports_linuxarm: linux on arm
 
 # unused on .world
 gdpr: Does the project require you to enable gdpr stats export
