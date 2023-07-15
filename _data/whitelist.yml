@@ -38,36 +38,6 @@ projects:
   team: https://asteroidsathome.net/boinc/team_display.php?teamid=2218
   stats: https://gridcoinstats.eu/project/asteroids@home
 
-- name: Collatz Conjecture
-  link: https://boinc.thesonntags.com/collatz/
-  img: "ic-project-collatz-conjecture.png"
-  topic: "Mathematics, Computing, Games"
-  goal: Attempting to disprove the Collatz Conjecture.
-  sponsor: Private
-  supports_windows: "y"
-  supports_mac: "y"
-  supports_linux: "y"
-  supports_nvidia_gpu: "y"
-  supports_amd_gpu: "y"
-  supports_intel_gpu: "y"
-  gdpr: "no"
-  team: https://boinc.thesonntags.com/collatz/team_display.php?teamid=3029
-  stats: https://gridcoinstats.eu/project/collatz_conjecture
-
-- name: Cosmology@Home
-  link: https://www.cosmologyathome.org/
-  img: "ic-project-cosmology-home.png"
-  topic: "Physical Science"
-  goal: Darkmatter/Universe Model Research
-  sponsor: Department of Astronomy at the University of Illinois at Urbana-Champaign
-  supports_windows: "y"
-  supports_mac: "y"
-  supports_linux: "y"
-  supports_virtualbox: "y"
-  gdpr: "no"
-  team: https://www.cosmologyathome.org/team_display.php?teamid=3637
-  stats: https://gridcoinstats.eu/project/cosmology@home
-
 - name: Einstein@home
   link: https://einsteinathome.org
   img: "ic-project-einstein-home.png"
@@ -110,30 +80,10 @@ projects:
     computer science.
   sponsor: Rensselaer Polytechnic Institute
   supports_windows: "y"
-  supports_mac: "y"
   supports_linux: "y"
-  supports_nvidia_gpu: "y"
-  supports_amd_gpu: "y"
   gdpr: "no"
   team: https://milkyway.cs.rpi.edu/milkyway/team_display.php?teamid=6566
   stats: https://gridcoinstats.eu/project/milkyway@home
-
-- name: Minecraft@Home
-  link: https://minecraftathome.com/
-  img: "ic-project-mc-home.svg"
-  topic: "Mathematics, Computing, Games"
-  goal: Enables the study of the fundamental laws of Minecraft to answer 
-        unanswered questions regarding the features and true limits of the game.
-  sponsor: Private
-  supports_windows: "y"
-  supports_linux: "y"
-  supports_arm: "y"
-  supports_nvidia_gpu: "y"
-  supports_amd_gpu: "y"
-  supports_intel_gpu: "y"
-  gdpr: "no"
-  team: https://minecraftathome.com/minecrafthome/team_display.php?teamid=1840
-  stats: https://gridcoinstats.eu/project/minecraft@home
 
 - name: NFS@Home
   link: https://escatter11.fullerton.edu/nfs/
@@ -164,6 +114,7 @@ projects:
   supports_linux: "y"
   supports_nvidia_gpu: "y"
   supports_amd_gpu: "y"
+  supports_intel_gpu: "y"
   gdpr: "yes"
   gdpr-enable-steps: "https://numberfields.asu.edu/NumberFields/forum_thread.php?id=355#2134"
   team: https://numberfields.asu.edu/NumberFields/team_display.php?teamid=2069
@@ -200,6 +151,19 @@ projects:
   team: https://boinc.bakerlab.org/rosetta/team_display.php?teamid=12575
   stats: https://gridcoinstats.eu/project/rosetta@home
 
+- name: SiDock@Home
+  link: https://www.sidock.si/sidock/
+  img: "ic-project-sidock-home.png"
+  topic: "Biology, Medicine"
+  goal: Works on drug discovery with COVID-19 as its primary focus
+  sponsor: COVID.SI project and the Karelian Research Center of the Russian Academy of Sciences.
+  supports_windows: "y"
+  supports_linux: "y"
+  supports_arm: "y"
+  gdpr: "no"
+  team: https://www.sidock.si/sidock/team_display.php?teamid=54
+  stats: https://www.gridcoinstats.eu/project/sidock@home
+
 - name: SRBase
   link: http://srbase.my-firewall.org/sr5/
   img: "ic-project-srbase.png"
@@ -211,23 +175,10 @@ projects:
   supports_linux: "y"
   supports_nvidia_gpu: "y"
   supports_amd_gpu: "y"
+  supports_intel_gpu: "y"
   gdpr: "no"
   team: http://srbase.my-firewall.org/sr5/team_display.php?teamid=99
   stats: https://gridcoinstats.eu/project/srbase
-
-- name: SiDock@Home
-  link: https://www.sidock.si/sidock/
-  img: "ic-project-sidock-home.png"
-  topic: "Biology, Medicine"
-  goal: Works on drug discovery with COVID-19 as its primary focus
-  sponsor: COVID.SI project and the Karelian Research Center of the Russian Academy of Sciences.
-  supports_windows: "y"
-  supports_mac: "y"
-  supports_linux: "y"
-  supports_arm: "y"
-  gdpr: "no"
-  team: https://www.sidock.si/sidock/team_display.php?teamid=54
-  stats: https://www.gridcoinstats.eu/project/sidock@home
 
 - name: TN-Grid
   link: https://gene.disi.unitn.it/test/
@@ -270,6 +221,9 @@ projects:
   supports_linux: "y"
   supports_arm: "y"
   supports_android: "y"
+  supports_nvidia_gpu: "y"
+  supports_amd_gpu: "y"
+  supports_intel_gpu: "y"
   gdpr: "yes"
   gdpr-enable-steps: https://www.worldcommunitygrid.org/ms/viewDataSharing.action
   team: https://secure.worldcommunitygrid.org/team/viewTeamInfo.do?teamId=BBNGDQS832
@@ -291,3 +245,17 @@ projects:
   gdpr: "no"
   team: https://www.rechenkraft.net/yoyo/team_display.php?teamid=1475
   stats: https://gridcoinstats.eu/project/yoyo@home
+
+- name: Folding@Home
+  link: https://foldingathome.org
+  img: ""
+  goal: Simulating protein dynamics, including the process of protein folding and the movements of proteins implicated in a variety of diseases. NOT a BOINC project, see crunching guides for how to setup account. 
+  sponsor: Folding@home Consortium (multiple universities), accepts BTC donations
+  supports_windows: "y"
+  supports_mac: "y"
+  supports_linux: "y"
+  supports_nvidia_gpu: "y"
+  supports_amd_gpu: "y"
+  gdpr: "no"
+  team: https://stats.foldingathome.org/team/226804
+  stats: https://foldingathome.org/statistics/
